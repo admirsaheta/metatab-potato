@@ -1,0 +1,15 @@
+{
+    "name": "HulkApps-Metafields-Extended",
+    "description": "Extends the default HulkApps-Metafields Shopify App",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "permissions": [
+        "tabs",
+        "storage",
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service-worker": "background.js"
+    }
+}
