@@ -7,19 +7,9 @@
         "tabs",
         "storage",
         "activeTab",
-        "scripting",
-        "*://*.myshopify.com/*",
-        "identity",
-        "storage"
+        "scripting"
     ],
     "background": {
         "service-worker": "background.js"
-    },
-    "content_scripts": [
-        {
-            "matches": ["*://*.myshopify.com/admin/products/*"],
-            "js": ["build/content_script.js"],
-            "run_at": "document_end"
-        }
-    ]
+    }
 }
